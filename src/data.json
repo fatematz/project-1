@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Sharma",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "arjun.sharma@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in first year of university. We used to pull all-nighters before exams together. He moved to Dhaka for work last year.",
+    "goal": 14,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 2,
+    "name": "Meher Nigar",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "meher.nigar@yahoo.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["childhood", "neighbor"],
+    "bio": "We grew up on the same street in Rajshahi. Still catch up every couple of weeks over phone calls.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "tanvir.h@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My senior at the office who helped me get through my first project. We grab lunch every week and talk tech and life.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sadia.islam@gmail.com",
+    "days_since_contact": 31,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "Best friends since class 6. She got married and moved to Chittagong. We keep meaning to video call more often.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 5,
+    "name": "Rafiq Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "rafiq.ahmed@protonmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["gym", "hobby"],
+    "bio": "Met at the local gym two years ago. We share a passion for fitness and often motivate each other to stay consistent.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 6,
+    "name": "Nadia Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+    "email": "nadia.chowdhury@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "study group"],
+    "bio": "We studied computer science together. She now works at a startup in Sylhet. Always has great advice on career decisions.",
+    "goal": 14,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 7,
+    "name": "Imran Khan",
+    "picture": "https://randomuser.me/api/portraits/men/74.jpg",
+    "email": "imran.k@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["travel", "adventure"],
+    "bio": "Met on a group trip to Cox's Bazar three years ago. We plan at least one trip together every year and stay in touch in between.",
+    "goal": 12,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 8,
+    "name": "Farida Begum",
+    "picture": "https://randomuser.me/api/portraits/women/82.jpg",
+    "email": "farida.begum@hotmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["friend", "family friend"],
+    "bio": "Our families have been close for decades. She is like an older sister to me. We talk almost every week about everything.",
+    "goal": 7,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 9,
+    "name": "Shawon Mahmud",
+    "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+    "email": "shawon.mahmud@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "My roommate for three years during university. We lost touch after graduation but always feel like no time has passed when we reconnect.",
+    "goal": 30,
+    "next_due_date": "2025-06-30"
+  },
+  {
+    "id": 10,
+    "name": "Priya Das",
+    "picture": "https://randomuser.me/api/portraits/women/95.jpg",
+    "email": "priya.das@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["book club", "hobby"],
+    "bio": "We met at a local book club event in 2023. She has incredible taste in literature and always recommends something that changes my perspective.",
+    "goal": 10,
+    "next_due_date": "2025-07-16"
+  }
+]
