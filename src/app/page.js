@@ -5,7 +5,7 @@ import FriendsCard from "./components/FriendsCard";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container py-[60px]">
     <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  bg-zinc-50 font-sans dark:bg-black">
 
       {

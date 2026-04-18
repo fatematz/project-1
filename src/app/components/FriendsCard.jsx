@@ -1,17 +1,29 @@
-import Link from "next/link";
 
-const FriendsCard=({data}) => {
-    
-    const {id, name, bio}=data;
+
+import Link from 'next/link'
+
+const FriendsCard = ({ data }) => {
+    const { id, name, bio, picture } = data
 
     return (
-        <div className="border-2 p-4 m-4  ">
-            <h1 className="text-xl md:text-2xl"> {name} </h1>
-            <p> {bio} </p>
+        <div className=' p-5 m-4 space-y-[10px] text-center shadow-2xl rounded-2xl'>
+            <div className='flex justify-center '>
+                <img className="rounded-full" src={picture} alt='' />
+            </div>
 
-            <Link href={`/friendsData/${id}`} className="btn mt-2">Details</Link>
+            <div className=''>
+                <h1 className='text-xl md:text-2xl'> {name} </h1>
+            </div>
+
+            <div className=''>
+                <p> {bio} </p>
+            </div>
+
+            <Link href={`/friendsData/${id}`} className='btn mt-2 bg-[#2c3e50] text-white'>
+                Details
+            </Link>
         </div>
-    );
-};
+    )
+}
 
-export default FriendsCard;
+export default FriendsCard
