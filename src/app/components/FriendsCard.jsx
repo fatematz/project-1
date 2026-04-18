@@ -6,7 +6,12 @@ const FriendsCard = ({ data }) => {
     const { id, name, bio, picture } = data
 
     return (
+
+      
+            
         <div className=' p-5 m-4 space-y-[10px] text-center shadow-2xl rounded-2xl'>
+
+
             <div className='flex justify-center '>
                 <img className="rounded-full" src={picture} alt='' />
             </div>
