@@ -12,6 +12,8 @@ export default function Home() {
   const searchData=data.filter((item) => item.name.toLowerCase().includes(searchQuery.toLocaleLowerCase()))
 
     return (
+
+        
       <div className='container py-[60px] '>
         <div className=" ml-[20px] my-[20px] ">
             <input
@@ -22,7 +24,7 @@ export default function Home() {
           />
           </div>
 
-            <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4   '>
+            <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                 {searchData.map((data) => (
                     <FriendsCard data={data} key={data.id}></FriendsCard>
                 ))}
