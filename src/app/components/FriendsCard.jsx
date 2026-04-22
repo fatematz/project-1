@@ -16,7 +16,7 @@ const FriendsCard = ({ data }) => {
                 <img className="rounded-full" src={picture} alt='' />
             </div>
 
-            <div className=''>
+            <div className='heading'>
                 <h1 className='text-xl md:text-2xl'> {name} </h1>
             </div>
 
