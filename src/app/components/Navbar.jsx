@@ -1,3 +1,5 @@
+'use client'
+import ThemeToggle from "./ThemeToggle";
 
 
 
@@ -42,7 +44,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-[#2c3e50] text-white">Button</a>
+   <ThemeToggle/>
   </div>
 </div>
         </div>
